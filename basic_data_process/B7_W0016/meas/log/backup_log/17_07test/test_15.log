@@ -1,0 +1,735 @@
+OK: CMD_DBG_UDP_ECHO
+OK: CMD_ECHO_CHIP_ID
+OK: CMD_TPX2_SET_FRQ__STOP_ACQ
+OK: Pixel Matrix Config 16 block. ACK received.
+OK: CMD_HW_COMMAND_START / SET_TRIM_CONF_REGISTER
+OK: CMD_ACQ_TIME_SETTING_LSB
+OK: CMD_NUMBER_OF_FRAMES_SETTING
+OK: CMD_BIAS_SETTING
+OK: CMD_INTERNAL_DAC_SETTINGS
+OK: CMD_HW_COMMAND_START / INTERNAL_DAC_UPDATE
+Receiving all DACs (27 x 8B):
+OK:   VbiasPreampOn   | Index:  0 | DAC value:    0.848
+OK:   VbiasPreampOff  | Index:  1 | DAC value:    0.849
+OK:   VbiasLsOn       | Index:  2 | DAC value:    0.673
+OK:   VbiasLsOff      | Index:  3 | DAC value:    0.769
+OK:   VcascPreamp     | Index:  4 | DAC value:    0.482
+OK:   Vfbk            | Index:  5 | DAC value:    0.663
+OK:   VthCoarse       | Index:  6 | DAC value:    0.643
+OK:   VthFine         | Index:  7 | DAC value:    0.641
+OK:   VbiasIkrum      | Index:  8 | DAC value:    0.277
+OK:   VbiasDiscPmos   | Index:  9 | DAC value:    0.773
+OK:   VbiasDiscNmos   | Index: 10 | DAC value:    0.737
+OK:   VcascDisc       | Index: 11 | DAC value:    0.609
+OK:   VbiasThs        | Index: 12 | DAC value:    0.260
+OK:   Vgnd            | Index: 13 | DAC value:    0.735
+OK:   VtpCoarse       | Index: 14 | DAC value:    0.526
+OK:   VtpFine         | Index: 15 | DAC value:    0.526
+OK:   VbiasSlvs       | Index: 16 | DAC value:    0.521
+OK:   VcmSlvs         | Index: 17 | DAC value:    0.986
+OK:   Re              | Index: 18 | DAC value:    0.978
+OK:   Vdd23           | Index: 19 | DAC value:    0.841
+OK:   Vdd13           | Index: 20 | DAC value:    0.454
+OK:   Vdda23          | Index: 21 | DAC value:    0.856
+OK:   Vdda13          | Index: 22 | DAC value:    0.465
+OK:   bias_dac        | Index: 23 | DAC value:    0.916
+OK:   bias_dac_casc   | Index: 24 | DAC value:    0.659
+OK:   vbg             | Index: 25 | DAC value:    0.395
+OK:   vbg_temp        | Index: 26 | DAC value:    0.843
+OK: CMD_GET_ALL_DAC_SCAN
+OK: CMD_TPX2_SET_OMR
+OK: CMD_TPX2_SET_COL_TRIGGER
+
+Timepix2_Config:
+ToT Frequency:         3
+ToA Prescaler:         30
+Acquisition Time [s]:  1
+Number of Frames:      100000
+Bias Voltage [mV]:     110
+OMR Register:          332
+Column Trigger Enable: 1
+Column Trigger Number: 168
+Data Mode:             0
+Zero Column Suppress:  0
+
+Tpx2Dacs Info:
+DAC Name           | Index | Default Value
+----------------------------------------
+VbiasPreampOn      | 0     | 110         
+VbiasPreampOff     | 1     | 8           
+VbiasLsOn          | 2     | 128         
+VbiasLsOff         | 3     | 11          
+VcascPreamp        | 4     | 115         
+Vfbk               | 5     | 165         
+VthCoarse          | 6     | 4           
+VthFine            | 7     | 979         
+VbiasIkrum         | 8     | 10          
+VbiasDiscPmos      | 9     | 145         
+VbiasDiscNmos      | 10    | 105         
+VcascDisc          | 11    | 150         
+VbiasThs           | 12    | 40          
+Vgnd               | 13    | 185         
+VtpCoarse          | 14    | 128         
+VtpFine            | 15    | 512         
+VbiasSlvs          | 16    | 255         
+VcmSlvs            | 17    | 255         
+Re                 | 18    | 0           
+Vdd23              | 19    | 0           
+Vdd13              | 20    | 0           
+Vdda23             | 21    | 0           
+Vdda13             | 22    | 0           
+bias_dac           | 23    | 0           
+bias_dac_casc      | 24    | 0           
+vbg                | 25    | 0           
+vbg_temp           | 26    | 0           
+
+Timepix2_Status:
+Chip ID:               B7-W0016
+Bias Voltage (read):   108.89
+DAC Settings:
+VbiasPreampOn      | Index:  0 | Setting: 0.848
+VbiasPreampOff     | Index:  1 | Setting: 0.849
+VbiasLsOn          | Index:  2 | Setting: 0.673
+VbiasLsOff         | Index:  3 | Setting: 0.769
+VcascPreamp        | Index:  4 | Setting: 0.482
+Vfbk               | Index:  5 | Setting: 0.663
+VthCoarse          | Index:  6 | Setting: 0.643
+VthFine            | Index:  7 | Setting: 0.641
+VbiasIkrum         | Index:  8 | Setting: 0.277
+VbiasDiscPmos      | Index:  9 | Setting: 0.773
+VbiasDiscNmos      | Index: 10 | Setting: 0.737
+VcascDisc          | Index: 11 | Setting: 0.609
+VbiasThs           | Index: 12 | Setting: 0.260
+Vgnd               | Index: 13 | Setting: 0.735
+VtpCoarse          | Index: 14 | Setting: 0.526
+VtpFine            | Index: 15 | Setting: 0.526
+VbiasSlvs          | Index: 16 | Setting: 0.521
+VcmSlvs            | Index: 17 | Setting: 0.986
+Re                 | Index: 18 | Setting: 0.978
+Vdd23              | Index: 19 | Setting: 0.841
+Vdd13              | Index: 20 | Setting: 0.454
+Vdda23             | Index: 21 | Setting: 0.856
+Vdda13             | Index: 22 | Setting: 0.465
+bias_dac           | Index: 23 | Setting: 0.916
+bias_dac_casc      | Index: 24 | Setting: 0.659
+vbg                | Index: 25 | Setting: 0.395
+vbg_temp           | Index: 26 | Setting: 0.843
+OK: CMD_ECHO_CHIP_ID
+OK: CMD_TPX2_SET_FRQ__STOP_ACQ
+OK: Pixel Matrix Config 16 block. ACK received.
+OK: CMD_HW_COMMAND_START / SET_TRIM_CONF_REGISTER
+OK: CMD_ACQ_TIME_SETTING_LSB
+OK: CMD_NUMBER_OF_FRAMES_SETTING
+OK: CMD_BIAS_SETTING
+OK: CMD_INTERNAL_DAC_SETTINGS
+OK: CMD_HW_COMMAND_START / INTERNAL_DAC_UPDATE
+Receiving all DACs (27 x 8B):
+OK:   VbiasPreampOn   | Index:  0 | DAC value:    0.845
+OK:   VbiasPreampOff  | Index:  1 | DAC value:    0.850
+OK:   VbiasLsOn       | Index:  2 | DAC value:    0.675
+OK:   VbiasLsOff      | Index:  3 | DAC value:    0.770
+OK:   VcascPreamp     | Index:  4 | DAC value:    0.484
+OK:   Vfbk            | Index:  5 | DAC value:    0.662
+OK:   VthCoarse       | Index:  6 | DAC value:    0.644
+OK:   VthFine         | Index:  7 | DAC value:    0.643
+OK:   VbiasIkrum      | Index:  8 | DAC value:    0.278
+OK:   VbiasDiscPmos   | Index:  9 | DAC value:    0.771
+OK:   VbiasDiscNmos   | Index: 10 | DAC value:    0.737
+OK:   VcascDisc       | Index: 11 | DAC value:    0.607
+OK:   VbiasThs        | Index: 12 | DAC value:    0.258
+OK:   Vgnd            | Index: 13 | DAC value:    0.733
+OK:   VtpCoarse       | Index: 14 | DAC value:    0.525
+OK:   VtpFine         | Index: 15 | DAC value:    0.523
+OK:   VbiasSlvs       | Index: 16 | DAC value:    0.520
+OK:   VcmSlvs         | Index: 17 | DAC value:    0.986
+OK:   Re              | Index: 18 | DAC value:    0.975
+OK:   Vdd23           | Index: 19 | DAC value:    0.840
+OK:   Vdd13           | Index: 20 | DAC value:    0.451
+OK:   Vdda23          | Index: 21 | DAC value:    0.853
+OK:   Vdda13          | Index: 22 | DAC value:    0.464
+OK:   bias_dac        | Index: 23 | DAC value:    0.914
+OK:   bias_dac_casc   | Index: 24 | DAC value:    0.654
+OK:   vbg             | Index: 25 | DAC value:    0.392
+OK:   vbg_temp        | Index: 26 | DAC value:    0.843
+OK: CMD_GET_ALL_DAC_SCAN
+OK: CMD_TPX2_SET_OMR
+OK: CMD_TPX2_SET_COL_TRIGGER
+
+Timepix2_Config:
+ToT Frequency:         3
+ToA Prescaler:         30
+Acquisition Time [s]:  1
+Number of Frames:      100000
+Bias Voltage [mV]:     110
+OMR Register:          332
+Column Trigger Enable: 1
+Column Trigger Number: 168
+Data Mode:             0
+Zero Column Suppress:  0
+
+Tpx2Dacs Info:
+DAC Name           | Index | Default Value
+----------------------------------------
+VbiasPreampOn      | 0     | 110         
+VbiasPreampOff     | 1     | 8           
+VbiasLsOn          | 2     | 128         
+VbiasLsOff         | 3     | 11          
+VcascPreamp        | 4     | 115         
+Vfbk               | 5     | 165         
+VthCoarse          | 6     | 4           
+VthFine            | 7     | 979         
+VbiasIkrum         | 8     | 10          
+VbiasDiscPmos      | 9     | 145         
+VbiasDiscNmos      | 10    | 105         
+VcascDisc          | 11    | 150         
+VbiasThs           | 12    | 40          
+Vgnd               | 13    | 185         
+VtpCoarse          | 14    | 128         
+VtpFine            | 15    | 512         
+VbiasSlvs          | 16    | 255         
+VcmSlvs            | 17    | 255         
+Re                 | 18    | 0           
+Vdd23              | 19    | 0           
+Vdd13              | 20    | 0           
+Vdda23             | 21    | 0           
+Vdda13             | 22    | 0           
+bias_dac           | 23    | 0           
+bias_dac_casc      | 24    | 0           
+vbg                | 25    | 0           
+vbg_temp           | 26    | 0           
+
+Timepix2_Status:
+Chip ID:               B7-W0016
+Bias Voltage (read):   108.90
+DAC Settings:
+VbiasPreampOn      | Index:  0 | Setting: 0.845
+VbiasPreampOff     | Index:  1 | Setting: 0.850
+VbiasLsOn          | Index:  2 | Setting: 0.675
+VbiasLsOff         | Index:  3 | Setting: 0.770
+VcascPreamp        | Index:  4 | Setting: 0.484
+Vfbk               | Index:  5 | Setting: 0.662
+VthCoarse          | Index:  6 | Setting: 0.644
+VthFine            | Index:  7 | Setting: 0.643
+VbiasIkrum         | Index:  8 | Setting: 0.278
+VbiasDiscPmos      | Index:  9 | Setting: 0.771
+VbiasDiscNmos      | Index: 10 | Setting: 0.737
+VcascDisc          | Index: 11 | Setting: 0.607
+VbiasThs           | Index: 12 | Setting: 0.258
+Vgnd               | Index: 13 | Setting: 0.733
+VtpCoarse          | Index: 14 | Setting: 0.525
+VtpFine            | Index: 15 | Setting: 0.523
+VbiasSlvs          | Index: 16 | Setting: 0.520
+VcmSlvs            | Index: 17 | Setting: 0.986
+Re                 | Index: 18 | Setting: 0.975
+Vdd23              | Index: 19 | Setting: 0.840
+Vdd13              | Index: 20 | Setting: 0.451
+Vdda23             | Index: 21 | Setting: 0.853
+Vdda13             | Index: 22 | Setting: 0.464
+bias_dac           | Index: 23 | Setting: 0.914
+bias_dac_casc      | Index: 24 | Setting: 0.654
+vbg                | Index: 25 | Setting: 0.392
+vbg_temp           | Index: 26 | Setting: 0.843
+TPX2 Data Readout started...
+New frame marker received for frame 0. UNIX time: 1752762449
+Appended frame 0 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.375. Chip: 32.339
+Bias Voltage:      108.898
+New frame marker received for frame 1. UNIX time: 1752762450
+Appended frame 1 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.438. Chip: 30.818
+Bias Voltage:      108.902
+New frame marker received for frame 2. UNIX time: 1752762451
+Appended frame 2 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.438. Chip: 32.339
+Bias Voltage:      108.899
+New frame marker received for frame 3. UNIX time: 1752762452
+Appended frame 3 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.438. Chip: 31.578
+Bias Voltage:      108.899
+New frame marker received for frame 4. UNIX time: 1752762453
+Appended frame 4 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.500. Chip: 33.100
+Bias Voltage:      108.890
+New frame marker received for frame 5. UNIX time: 1752762454
+Appended frame 5 with 5 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.500. Chip: 30.818
+Bias Voltage:      108.923
+New frame marker received for frame 6. UNIX time: 1752762456
+Appended frame 6 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.562. Chip: 30.437
+Bias Voltage:      108.882
+New frame marker received for frame 7. UNIX time: 1752762457
+Appended frame 7 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.562. Chip: 29.296
+Bias Voltage:      108.893
+New frame marker received for frame 8. UNIX time: 1752762458
+Appended frame 8 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.562. Chip: 30.818
+Bias Voltage:      108.915
+New frame marker received for frame 9. UNIX time: 1752762459
+Appended frame 9 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.625. Chip: 30.818
+Bias Voltage:      108.906
+New frame marker received for frame 10. UNIX time: 1752762460
+Appended frame 10 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.625. Chip: 30.057
+Bias Voltage:      108.892
+New frame marker received for frame 11. UNIX time: 1752762461
+Appended frame 11 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.625. Chip: 31.198
+Bias Voltage:      108.906
+New frame marker received for frame 12. UNIX time: 1752762462
+Appended frame 12 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.688. Chip: 30.057
+Bias Voltage:      108.896
+New frame marker received for frame 13. UNIX time: 1752762463
+Appended frame 13 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.688. Chip: 31.959
+Bias Voltage:      108.868
+New frame marker received for frame 14. UNIX time: 1752762464
+Appended frame 14 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.688. Chip: 31.959
+Bias Voltage:      108.915
+New frame marker received for frame 15. UNIX time: 1752762465
+Appended frame 15 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.750. Chip: 30.057
+Bias Voltage:      108.910
+New frame marker received for frame 16. UNIX time: 1752762467
+Appended frame 16 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.750. Chip: 30.437
+Bias Voltage:      108.890
+New frame marker received for frame 17. UNIX time: 1752762468
+Appended frame 17 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.812. Chip: 31.578
+Bias Voltage:      108.906
+New frame marker received for frame 18. UNIX time: 1752762469
+Appended frame 18 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.812. Chip: 30.818
+Bias Voltage:      108.888
+New frame marker received for frame 19. UNIX time: 1752762470
+Appended frame 19 with 6 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.812. Chip: 32.720
+Bias Voltage:      108.904
+New frame marker received for frame 20. UNIX time: 1752762471
+Appended frame 20 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.875. Chip: 31.198
+Bias Voltage:      108.883
+New frame marker received for frame 21. UNIX time: 1752762472
+Appended frame 21 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.875. Chip: 32.720
+Bias Voltage:      108.892
+New frame marker received for frame 22. UNIX time: 1752762473
+Appended frame 22 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.875. Chip: 32.339
+Bias Voltage:      108.852
+New frame marker received for frame 23. UNIX time: 1752762474
+Appended frame 23 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.938. Chip: 31.198
+Bias Voltage:      108.864
+New frame marker received for frame 24. UNIX time: 1752762475
+Appended frame 24 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.938. Chip: 30.818
+Bias Voltage:      108.890
+New frame marker received for frame 25. UNIX time: 1752762476
+Appended frame 25 with 13 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :61.938. Chip: 31.578
+Bias Voltage:      108.887
+New frame marker received for frame 26. UNIX time: 1752762477
+Appended frame 26 with 18 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.000. Chip: 32.339
+Bias Voltage:      108.876
+New frame marker received for frame 27. UNIX time: 1752762479
+Appended frame 27 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.000. Chip: 31.578
+Bias Voltage:      108.917
+New frame marker received for frame 28. UNIX time: 1752762480
+Appended frame 28 with 17 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.000. Chip: 31.959
+Bias Voltage:      108.872
+New frame marker received for frame 29. UNIX time: 1752762481
+Appended frame 29 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.062. Chip: 31.578
+Bias Voltage:      108.921
+New frame marker received for frame 30. UNIX time: 1752762482
+Appended frame 30 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.062. Chip: 31.959
+Bias Voltage:      108.900
+New frame marker received for frame 31. UNIX time: 1752762483
+Appended frame 31 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.062. Chip: 32.720
+Bias Voltage:      108.899
+New frame marker received for frame 32. UNIX time: 1752762484
+Appended frame 32 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.125. Chip: 31.198
+Bias Voltage:      108.916
+New frame marker received for frame 33. UNIX time: 1752762485
+Appended frame 33 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.125. Chip: 31.959
+Bias Voltage:      108.875
+New frame marker received for frame 34. UNIX time: 1752762486
+Appended frame 34 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.188. Chip: 30.818
+Bias Voltage:      108.899
+New frame marker received for frame 35. UNIX time: 1752762487
+Appended frame 35 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.188. Chip: 32.720
+Bias Voltage:      108.873
+New frame marker received for frame 36. UNIX time: 1752762488
+Appended frame 36 with 16 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.188. Chip: 31.198
+Bias Voltage:      108.888
+New frame marker received for frame 37. UNIX time: 1752762490
+Appended frame 37 with 7 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.188. Chip: 33.100
+Bias Voltage:      108.891
+New frame marker received for frame 38. UNIX time: 1752762491
+Appended frame 38 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.250. Chip: 31.578
+Bias Voltage:      108.880
+New frame marker received for frame 39. UNIX time: 1752762492
+Appended frame 39 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.250. Chip: 31.578
+Bias Voltage:      108.866
+New frame marker received for frame 40. UNIX time: 1752762493
+Appended frame 40 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.250. Chip: 32.720
+Bias Voltage:      108.881
+New frame marker received for frame 41. UNIX time: 1752762494
+Appended frame 41 with 12 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.312. Chip: 33.100
+Bias Voltage:      108.889
+New frame marker received for frame 42. UNIX time: 1752762495
+Appended frame 42 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.312. Chip: 30.437
+Bias Voltage:      108.886
+New frame marker received for frame 43. UNIX time: 1752762496
+Appended frame 43 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.312. Chip: 31.198
+Bias Voltage:      108.870
+New frame marker received for frame 44. UNIX time: 1752762497
+Appended frame 44 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.375. Chip: 31.578
+Bias Voltage:      108.886
+New frame marker received for frame 45. UNIX time: 1752762498
+Appended frame 45 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.375. Chip: 32.339
+Bias Voltage:      108.889
+New frame marker received for frame 46. UNIX time: 1752762499
+Appended frame 46 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.375. Chip: 30.818
+Bias Voltage:      108.868
+New frame marker received for frame 47. UNIX time: 1752762501
+Appended frame 47 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.375. Chip: 33.100
+Bias Voltage:      108.910
+New frame marker received for frame 48. UNIX time: 1752762502
+Appended frame 48 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.438. Chip: 30.437
+Bias Voltage:      108.870
+New frame marker received for frame 49. UNIX time: 1752762503
+Appended frame 49 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.438. Chip: 32.720
+Bias Voltage:      108.866
+New frame marker received for frame 50. UNIX time: 1752762504
+Appended frame 50 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.438. Chip: 30.057
+Bias Voltage:      108.886
+New frame marker received for frame 51. UNIX time: 1752762505
+Appended frame 51 with 21 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.438. Chip: 30.818
+Bias Voltage:      108.864
+New frame marker received for frame 52. UNIX time: 1752762506
+Appended frame 52 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.500. Chip: 31.959
+Bias Voltage:      108.882
+New frame marker received for frame 53. UNIX time: 1752762507
+Appended frame 53 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.500. Chip: 31.959
+Bias Voltage:      108.893
+New frame marker received for frame 54. UNIX time: 1752762508
+Appended frame 54 with 5 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.500. Chip: 32.720
+Bias Voltage:      108.871
+New frame marker received for frame 55. UNIX time: 1752762509
+Appended frame 55 with 14 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.500. Chip: 30.818
+Bias Voltage:      108.875
+New frame marker received for frame 56. UNIX time: 1752762510
+Appended frame 56 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.562. Chip: 31.959
+Bias Voltage:      108.882
+New frame marker received for frame 57. UNIX time: 1752762512
+Appended frame 57 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.562. Chip: 31.959
+Bias Voltage:      108.883
+New frame marker received for frame 58. UNIX time: 1752762513
+Appended frame 58 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.562. Chip: 33.100
+Bias Voltage:      108.871
+New frame marker received for frame 59. UNIX time: 1752762514
+Appended frame 59 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.625. Chip: 31.578
+Bias Voltage:      108.888
+New frame marker received for frame 60. UNIX time: 1752762515
+Appended frame 60 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.625. Chip: 32.339
+Bias Voltage:      108.889
+New frame marker received for frame 61. UNIX time: 1752762516
+Appended frame 61 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.625. Chip: 31.198
+Bias Voltage:      108.885
+New frame marker received for frame 62. UNIX time: 1752762517
+Appended frame 62 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.625. Chip: 31.198
+Bias Voltage:      108.876
+New frame marker received for frame 63. UNIX time: 1752762518
+Appended frame 63 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.625. Chip: 31.198
+Bias Voltage:      108.868
+New frame marker received for frame 64. UNIX time: 1752762519
+Appended frame 64 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.688. Chip: 33.480
+Bias Voltage:      108.903
+New frame marker received for frame 65. UNIX time: 1752762520
+Appended frame 65 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.688. Chip: 31.578
+Bias Voltage:      108.888
+New frame marker received for frame 66. UNIX time: 1752762521
+Appended frame 66 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.688. Chip: 34.241
+Bias Voltage:      108.860
+New frame marker received for frame 67. UNIX time: 1752762523
+Appended frame 67 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.688. Chip: 33.861
+Bias Voltage:      108.871
+New frame marker received for frame 68. UNIX time: 1752762524
+Appended frame 68 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.750. Chip: 32.339
+Bias Voltage:      108.891
+New frame marker received for frame 69. UNIX time: 1752762525
+Appended frame 69 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.750. Chip: 32.339
+Bias Voltage:      108.883
+New frame marker received for frame 70. UNIX time: 1752762526
+Appended frame 70 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.750. Chip: 32.339
+Bias Voltage:      108.883
+New frame marker received for frame 71. UNIX time: 1752762527
+Appended frame 71 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.750. Chip: 33.100
+Bias Voltage:      108.875
+New frame marker received for frame 72. UNIX time: 1752762528
+Appended frame 72 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 31.959
+Bias Voltage:      108.851
+New frame marker received for frame 73. UNIX time: 1752762529
+Appended frame 73 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 31.959
+Bias Voltage:      108.863
+New frame marker received for frame 74. UNIX time: 1752762530
+Appended frame 74 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 32.720
+Bias Voltage:      108.904
+New frame marker received for frame 75. UNIX time: 1752762531
+Appended frame 75 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 32.720
+Bias Voltage:      108.891
+New frame marker received for frame 76. UNIX time: 1752762532
+Appended frame 76 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 31.578
+Bias Voltage:      108.867
+New frame marker received for frame 77. UNIX time: 1752762534
+Appended frame 77 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.875. Chip: 31.578
+Bias Voltage:      108.854
+New frame marker received for frame 78. UNIX time: 1752762535
+Appended frame 78 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.812. Chip: 33.480
+Bias Voltage:      108.884
+New frame marker received for frame 79. UNIX time: 1752762536
+Appended frame 79 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.875. Chip: 34.621
+Bias Voltage:      108.867
+New frame marker received for frame 80. UNIX time: 1752762537
+Appended frame 80 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.875. Chip: 31.198
+Bias Voltage:      108.871
+New frame marker received for frame 81. UNIX time: 1752762538
+Appended frame 81 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.875. Chip: 32.720
+Bias Voltage:      108.918
+New frame marker received for frame 82. UNIX time: 1752762539
+Appended frame 82 with 15 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 31.959
+Bias Voltage:      108.867
+New frame marker received for frame 83. UNIX time: 1752762540
+Appended frame 83 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 33.100
+Bias Voltage:      108.878
+New frame marker received for frame 84. UNIX time: 1752762541
+Appended frame 84 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 34.621
+Bias Voltage:      108.891
+New frame marker received for frame 85. UNIX time: 1752762542
+Appended frame 85 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 33.861
+Bias Voltage:      108.867
+New frame marker received for frame 86. UNIX time: 1752762543
+Appended frame 86 with 9 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 31.578
+Bias Voltage:      108.848
+New frame marker received for frame 87. UNIX time: 1752762544
+Appended frame 87 with 5 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :62.938. Chip: 33.100
+Bias Voltage:      108.871
+New frame marker received for frame 88. UNIX time: 1752762546
+Appended frame 88 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.000. Chip: 32.720
+Bias Voltage:      108.887
+New frame marker received for frame 89. UNIX time: 1752762547
+Appended frame 89 with 22 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.000. Chip: 31.578
+Bias Voltage:      108.863
+New frame marker received for frame 90. UNIX time: 1752762548
+Appended frame 90 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.000. Chip: 33.480
+Bias Voltage:      108.866
+New frame marker received for frame 91. UNIX time: 1752762549
+Appended frame 91 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.000. Chip: 33.480
+Bias Voltage:      108.872
+New frame marker received for frame 92. UNIX time: 1752762550
+Appended frame 92 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.000. Chip: 32.339
+Bias Voltage:      108.888
+New frame marker received for frame 93. UNIX time: 1752762551
+Appended frame 93 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.062. Chip: 32.339
+Bias Voltage:      108.846
+New frame marker received for frame 94. UNIX time: 1752762552
+Appended frame 94 with 6 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.062. Chip: 33.100
+Bias Voltage:      108.864
+New frame marker received for frame 95. UNIX time: 1752762553
+Appended frame 95 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.062. Chip: 32.720
+Bias Voltage:      108.892
+New frame marker received for frame 96. UNIX time: 1752762554
+Appended frame 96 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.062. Chip: 32.720
+Bias Voltage:      108.864
+New frame marker received for frame 97. UNIX time: 1752762555
+Appended frame 97 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.062. Chip: 32.720
+Bias Voltage:      108.884
+New frame marker received for frame 98. UNIX time: 1752762557
+Appended frame 98 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.125. Chip: 33.100
+Bias Voltage:      108.864
+New frame marker received for frame 99. UNIX time: 1752762558
+Appended frame 99 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.125. Chip: 33.480
+Bias Voltage:      108.885
+New frame marker received for frame 100. UNIX time: 1752762559
+Appended frame 100 with 0 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.125. Chip: 33.480
+Bias Voltage:      108.881
+New frame marker received for frame 101. UNIX time: 1752762560
+Appended frame 101 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.125. Chip: 32.720
+Bias Voltage:      108.870
+New frame marker received for frame 102. UNIX time: 1752762561
+Appended frame 102 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 32.720
+Bias Voltage:      108.884
+New frame marker received for frame 103. UNIX time: 1752762562
+Appended frame 103 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 33.861
+Bias Voltage:      108.889
+New frame marker received for frame 104. UNIX time: 1752762563
+Appended frame 104 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 31.198
+Bias Voltage:      108.880
+New frame marker received for frame 105. UNIX time: 1752762564
+Appended frame 105 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 32.720
+Bias Voltage:      108.869
+New frame marker received for frame 106. UNIX time: 1752762565
+Appended frame 106 with 12 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 33.100
+Bias Voltage:      108.850
+New frame marker received for frame 107. UNIX time: 1752762566
+Appended frame 107 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.188. Chip: 32.720
+Bias Voltage:      108.892
+New frame marker received for frame 108. UNIX time: 1752762568
+Appended frame 108 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.250. Chip: 32.720
+Bias Voltage:      108.880
+New frame marker received for frame 109. UNIX time: 1752762569
+Appended frame 109 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.250. Chip: 33.480
+Bias Voltage:      108.857
+New frame marker received for frame 110. UNIX time: 1752762570
+Appended frame 110 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.250. Chip: 33.861
+Bias Voltage:      108.861
+New frame marker received for frame 111. UNIX time: 1752762571
+Appended frame 111 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.250. Chip: 32.720
+Bias Voltage:      108.897
+New frame marker received for frame 112. UNIX time: 1752762572
+Appended frame 112 with 5 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.250. Chip: 33.480
+Bias Voltage:      108.864
+New frame marker received for frame 113. UNIX time: 1752762573
+Appended frame 113 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 31.959
+Bias Voltage:      108.898
+New frame marker received for frame 114. UNIX time: 1752762574
+Appended frame 114 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 35.002
+Bias Voltage:      108.860
+New frame marker received for frame 115. UNIX time: 1752762575
+Appended frame 115 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 35.002
+Bias Voltage:      108.844
+New frame marker received for frame 116. UNIX time: 1752762576
+Appended frame 116 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 33.861
+Bias Voltage:      108.861
+New frame marker received for frame 117. UNIX time: 1752762577
+Appended frame 117 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 33.480
+Bias Voltage:      108.884
+New frame marker received for frame 118. UNIX time: 1752762579
+Appended frame 118 with 3 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.312. Chip: 33.480
+Bias Voltage:      108.871
+New frame marker received for frame 119. UNIX time: 1752762580
+Appended frame 119 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 33.100
+Bias Voltage:      108.883
+New frame marker received for frame 120. UNIX time: 1752762581
+Appended frame 120 with 4 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 33.480
+Bias Voltage:      108.890
+New frame marker received for frame 121. UNIX time: 1752762582
+Appended frame 121 with 1 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 33.480
+Bias Voltage:      108.873
+New frame marker received for frame 122. UNIX time: 1752762583
+Appended frame 122 with 17 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 33.861
+Bias Voltage:      108.876
+New frame marker received for frame 123. UNIX time: 1752762584
+Appended frame 123 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 31.959
+Bias Voltage:      108.875
+New frame marker received for frame 124. UNIX time: 1752762585
+Appended frame 124 with 2 hits to ./B7-W0016/meas/test_13.npy
+TEMP.: HW :63.375. Chip: 33.100
+Bias Voltage:      108.899
+New frame marker received for frame 125. UNIX time: 1752762586
+Appended frame 125 with 5 hits to ./B7-W0016/meas/test_13.npy
+                                                                                                                                            

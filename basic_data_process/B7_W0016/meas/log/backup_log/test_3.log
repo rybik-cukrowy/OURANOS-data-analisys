@@ -1,0 +1,246 @@
+OK: CMD_DBG_UDP_ECHO
+OK: CMD_ECHO_CHIP_ID
+OK: CMD_TPX2_SET_FRQ__STOP_ACQ
+OK: Pixel Matrix Config 16 block. ACK received.
+OK: CMD_HW_COMMAND_START / SET_TRIM_CONF_REGISTER
+OK: CMD_ACQ_TIME_SETTING_LSB
+OK: CMD_NUMBER_OF_FRAMES_SETTING
+OK: CMD_BIAS_SETTING
+OK: CMD_INTERNAL_DAC_SETTINGS
+OK: CMD_HW_COMMAND_START / INTERNAL_DAC_UPDATE
+Receiving all DACs (27 x 8B):
+OK:   VbiasPreampOn   | Index:  0 | DAC value:    0.847
+OK:   VbiasPreampOff  | Index:  1 | DAC value:    0.851
+OK:   VbiasLsOn       | Index:  2 | DAC value:    0.675
+OK:   VbiasLsOff      | Index:  3 | DAC value:    0.768
+OK:   VcascPreamp     | Index:  4 | DAC value:    0.485
+OK:   Vfbk            | Index:  5 | DAC value:    0.666
+OK:   VthCoarse       | Index:  6 | DAC value:    0.647
+OK:   VthFine         | Index:  7 | DAC value:    0.646
+OK:   VbiasIkrum      | Index:  8 | DAC value:    0.276
+OK:   VbiasDiscPmos   | Index:  9 | DAC value:    0.774
+OK:   VbiasDiscNmos   | Index: 10 | DAC value:    0.735
+OK:   VcascDisc       | Index: 11 | DAC value:    0.608
+OK:   VbiasThs        | Index: 12 | DAC value:    0.255
+OK:   Vgnd            | Index: 13 | DAC value:    0.737
+OK:   VtpCoarse       | Index: 14 | DAC value:    0.525
+OK:   VtpFine         | Index: 15 | DAC value:    0.526
+OK:   VbiasSlvs       | Index: 16 | DAC value:    0.520
+OK:   VcmSlvs         | Index: 17 | DAC value:    0.990
+OK:   Re              | Index: 18 | DAC value:    0.978
+OK:   Vdd23           | Index: 19 | DAC value:    0.827
+OK:   Vdd13           | Index: 20 | DAC value:    0.445
+OK:   Vdda23          | Index: 21 | DAC value:    0.853
+OK:   Vdda13          | Index: 22 | DAC value:    0.465
+OK:   bias_dac        | Index: 23 | DAC value:    0.917
+OK:   bias_dac_casc   | Index: 24 | DAC value:    0.658
+OK:   vbg             | Index: 25 | DAC value:    0.396
+OK:   vbg_temp        | Index: 26 | DAC value:    0.845
+OK: CMD_GET_ALL_DAC_SCAN
+OK: CMD_TPX2_SET_OMR
+OK: CMD_TPX2_SET_COL_TRIGGER
+
+Timepix2_Config:
+ToT Frequency:         3
+ToA Prescaler:         30
+Acquisition Time [s]:  1
+Number of Frames:      1000
+Bias Voltage [mV]:     110
+OMR Register:          332
+Column Trigger Enable: 1
+Column Trigger Number: 168
+Data Mode:             0
+Zero Column Suppress:  0
+
+Tpx2Dacs Info:
+DAC Name           | Index | Default Value
+----------------------------------------
+VbiasPreampOn      | 0     | 110         
+VbiasPreampOff     | 1     | 8           
+VbiasLsOn          | 2     | 128         
+VbiasLsOff         | 3     | 11          
+VcascPreamp        | 4     | 115         
+Vfbk               | 5     | 165         
+VthCoarse          | 6     | 4           
+VthFine            | 7     | 979         
+VbiasIkrum         | 8     | 10          
+VbiasDiscPmos      | 9     | 145         
+VbiasDiscNmos      | 10    | 105         
+VcascDisc          | 11    | 150         
+VbiasThs           | 12    | 40          
+Vgnd               | 13    | 185         
+VtpCoarse          | 14    | 128         
+VtpFine            | 15    | 512         
+VbiasSlvs          | 16    | 255         
+VcmSlvs            | 17    | 255         
+Re                 | 18    | 0           
+Vdd23              | 19    | 0           
+Vdd13              | 20    | 0           
+Vdda23             | 21    | 0           
+Vdda13             | 22    | 0           
+bias_dac           | 23    | 0           
+bias_dac_casc      | 24    | 0           
+vbg                | 25    | 0           
+vbg_temp           | 26    | 0           
+
+Timepix2_Status:
+Chip ID:               B7-W0016
+Bias Voltage (read):   30.28
+DAC Settings:
+VbiasPreampOn      | Index:  0 | Setting: 0.847
+VbiasPreampOff     | Index:  1 | Setting: 0.851
+VbiasLsOn          | Index:  2 | Setting: 0.675
+VbiasLsOff         | Index:  3 | Setting: 0.768
+VcascPreamp        | Index:  4 | Setting: 0.485
+Vfbk               | Index:  5 | Setting: 0.666
+VthCoarse          | Index:  6 | Setting: 0.647
+VthFine            | Index:  7 | Setting: 0.646
+VbiasIkrum         | Index:  8 | Setting: 0.276
+VbiasDiscPmos      | Index:  9 | Setting: 0.774
+VbiasDiscNmos      | Index: 10 | Setting: 0.735
+VcascDisc          | Index: 11 | Setting: 0.608
+VbiasThs           | Index: 12 | Setting: 0.255
+Vgnd               | Index: 13 | Setting: 0.737
+VtpCoarse          | Index: 14 | Setting: 0.525
+VtpFine            | Index: 15 | Setting: 0.526
+VbiasSlvs          | Index: 16 | Setting: 0.520
+VcmSlvs            | Index: 17 | Setting: 0.990
+Re                 | Index: 18 | Setting: 0.978
+Vdd23              | Index: 19 | Setting: 0.827
+Vdd13              | Index: 20 | Setting: 0.445
+Vdda23             | Index: 21 | Setting: 0.853
+Vdda13             | Index: 22 | Setting: 0.465
+bias_dac           | Index: 23 | Setting: 0.917
+bias_dac_casc      | Index: 24 | Setting: 0.658
+vbg                | Index: 25 | Setting: 0.396
+vbg_temp           | Index: 26 | Setting: 0.845
+OK: CMD_ECHO_CHIP_ID
+OK: CMD_TPX2_SET_FRQ__STOP_ACQ
+OK: Pixel Matrix Config 16 block. ACK received.
+OK: CMD_HW_COMMAND_START / SET_TRIM_CONF_REGISTER
+OK: CMD_ACQ_TIME_SETTING_LSB
+OK: CMD_NUMBER_OF_FRAMES_SETTING
+OK: CMD_BIAS_SETTING
+OK: CMD_INTERNAL_DAC_SETTINGS
+OK: CMD_HW_COMMAND_START / INTERNAL_DAC_UPDATE
+Receiving all DACs (27 x 8B):
+OK:   VbiasPreampOn   | Index:  0 | DAC value:    0.847
+OK:   VbiasPreampOff  | Index:  1 | DAC value:    0.853
+OK:   VbiasLsOn       | Index:  2 | DAC value:    0.676
+OK:   VbiasLsOff      | Index:  3 | DAC value:    0.773
+OK:   VcascPreamp     | Index:  4 | DAC value:    0.486
+OK:   Vfbk            | Index:  5 | DAC value:    0.664
+OK:   VthCoarse       | Index:  6 | DAC value:    0.643
+OK:   VthFine         | Index:  7 | DAC value:    0.645
+OK:   VbiasIkrum      | Index:  8 | DAC value:    0.274
+OK:   VbiasDiscPmos   | Index:  9 | DAC value:    0.772
+OK:   VbiasDiscNmos   | Index: 10 | DAC value:    0.735
+OK:   VcascDisc       | Index: 11 | DAC value:    0.609
+OK:   VbiasThs        | Index: 12 | DAC value:    0.253
+OK:   Vgnd            | Index: 13 | DAC value:    0.735
+OK:   VtpCoarse       | Index: 14 | DAC value:    0.524
+OK:   VtpFine         | Index: 15 | DAC value:    0.529
+OK:   VbiasSlvs       | Index: 16 | DAC value:    0.521
+OK:   VcmSlvs         | Index: 17 | DAC value:    0.990
+OK:   Re              | Index: 18 | DAC value:    0.979
+OK:   Vdd23           | Index: 19 | DAC value:    0.825
+OK:   Vdd13           | Index: 20 | DAC value:    0.447
+OK:   Vdda23          | Index: 21 | DAC value:    0.854
+OK:   Vdda13          | Index: 22 | DAC value:    0.466
+OK:   bias_dac        | Index: 23 | DAC value:    0.913
+OK:   bias_dac_casc   | Index: 24 | DAC value:    0.658
+OK:   vbg             | Index: 25 | DAC value:    0.396
+OK:   vbg_temp        | Index: 26 | DAC value:    0.846
+OK: CMD_GET_ALL_DAC_SCAN
+OK: CMD_TPX2_SET_OMR
+OK: CMD_TPX2_SET_COL_TRIGGER
+
+Timepix2_Config:
+ToT Frequency:         3
+ToA Prescaler:         30
+Acquisition Time [s]:  1
+Number of Frames:      1000
+Bias Voltage [mV]:     110
+OMR Register:          332
+Column Trigger Enable: 1
+Column Trigger Number: 168
+Data Mode:             0
+Zero Column Suppress:  0
+
+Tpx2Dacs Info:
+DAC Name           | Index | Default Value
+----------------------------------------
+VbiasPreampOn      | 0     | 110         
+VbiasPreampOff     | 1     | 8           
+VbiasLsOn          | 2     | 128         
+VbiasLsOff         | 3     | 11          
+VcascPreamp        | 4     | 115         
+Vfbk               | 5     | 165         
+VthCoarse          | 6     | 4           
+VthFine            | 7     | 979         
+VbiasIkrum         | 8     | 10          
+VbiasDiscPmos      | 9     | 145         
+VbiasDiscNmos      | 10    | 105         
+VcascDisc          | 11    | 150         
+VbiasThs           | 12    | 40          
+Vgnd               | 13    | 185         
+VtpCoarse          | 14    | 128         
+VtpFine            | 15    | 512         
+VbiasSlvs          | 16    | 255         
+VcmSlvs            | 17    | 255         
+Re                 | 18    | 0           
+Vdd23              | 19    | 0           
+Vdd13              | 20    | 0           
+Vdda23             | 21    | 0           
+Vdda13             | 22    | 0           
+bias_dac           | 23    | 0           
+bias_dac_casc      | 24    | 0           
+vbg                | 25    | 0           
+vbg_temp           | 26    | 0           
+
+Timepix2_Status:
+Chip ID:               B7-W0016
+Bias Voltage (read):   108.88
+DAC Settings:
+VbiasPreampOn      | Index:  0 | Setting: 0.847
+VbiasPreampOff     | Index:  1 | Setting: 0.853
+VbiasLsOn          | Index:  2 | Setting: 0.676
+VbiasLsOff         | Index:  3 | Setting: 0.773
+VcascPreamp        | Index:  4 | Setting: 0.486
+Vfbk               | Index:  5 | Setting: 0.664
+VthCoarse          | Index:  6 | Setting: 0.643
+VthFine            | Index:  7 | Setting: 0.645
+VbiasIkrum         | Index:  8 | Setting: 0.274
+VbiasDiscPmos      | Index:  9 | Setting: 0.772
+VbiasDiscNmos      | Index: 10 | Setting: 0.735
+VcascDisc          | Index: 11 | Setting: 0.609
+VbiasThs           | Index: 12 | Setting: 0.253
+Vgnd               | Index: 13 | Setting: 0.735
+VtpCoarse          | Index: 14 | Setting: 0.524
+VtpFine            | Index: 15 | Setting: 0.529
+VbiasSlvs          | Index: 16 | Setting: 0.521
+VcmSlvs            | Index: 17 | Setting: 0.990
+Re                 | Index: 18 | Setting: 0.979
+Vdd23              | Index: 19 | Setting: 0.825
+Vdd13              | Index: 20 | Setting: 0.447
+Vdda23             | Index: 21 | Setting: 0.854
+Vdda13             | Index: 22 | Setting: 0.466
+bias_dac           | Index: 23 | Setting: 0.913
+bias_dac_casc      | Index: 24 | Setting: 0.658
+vbg                | Index: 25 | Setting: 0.396
+vbg_temp           | Index: 26 | Setting: 0.846
+TPX2 Data Readout started...
+Traceback (most recent call last):
+  File "/home/pi/07_14_2025_DBG_TPX2_Lite/DBG_TPX2_Lite/TPX2_Lite_DBG.py", line 1283, in <module>
+    cli.onecmd(cmd)
+  File "/usr/lib/python3.11/cmd.py", line 217, in onecmd
+    return func(arg)
+           ^^^^^^^^^
+  File "/home/pi/07_14_2025_DBG_TPX2_Lite/DBG_TPX2_Lite/TPX2_Lite_DBG.py", line 983, in do_tpx2_acq
+    start_acq()
+  File "/home/pi/07_14_2025_DBG_TPX2_Lite/DBG_TPX2_Lite/TPX2_Lite_DBG.py", line 865, in start_acq
+    tpx2_data_readout()
+  File "/home/pi/07_14_2025_DBG_TPX2_Lite/DBG_TPX2_Lite/TPX2_Lite_DBG.py", line 638, in tpx2_data_readout
+    data, addr = recv_sock.recvfrom(768)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
